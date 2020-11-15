@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "445606187246",
+    "firebase_url": "https://partymontreal-146be.firebaseio.com",
+    "project_id": "partymontreal-146be",
+    "storage_bucket": "partymontreal-146be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445606187246:android:3d958cb5b111e2fed2a3ff",
+        "android_client_info": {
+          "package_name": "com.example.partymontreal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445606187246-rj8pootn8q086caphec3hflqt4noppen.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnI1VAjjmbSYFRRXH7JiFtZOJfPe-GFSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445606187246-rj8pootn8q086caphec3hflqt4noppen.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
