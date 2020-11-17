@@ -38,6 +38,12 @@ public class Register extends AppCompatActivity {
         mLoginBtn = findViewById(R.id.textView3);
 
         fAuth = FirebaseAuth.getInstance();
+        if(fAuth.getCurrentUser() != null){
+            startActivity(new Intent(getApplicationContext(),MainActivity.class));
+            finish();
+        }
+
+        mRegisterBtn.setOnClickListener(new View.OnClickListener() {
 
         mRegisterBtn.setOnClickListener(new OnClickListener() {
             @Override
@@ -64,6 +70,7 @@ public class Register extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
                             Toast.makeText(Register.this, "User Created", Toast.LENGTH_SHORT).show();
+                            startActivity(new Intent(getApplicationContext(),MainActivity.class));
                             startActivity(new Intent(getApplicationContext(),Login.class));
                         }else {
                             Toast.makeText(Register.this, "Error!"+task.getException().getMessage(), Toast.LENGTH_SHORT).show();
@@ -72,6 +79,8 @@ public class Register extends AppCompatActivity {
                 });
             }
         });
+
+        mLoginBtn.setOnClickListener(new View.OnClickListener() {
 
         mLoginBtn.setOnClickListener(new OnClickListener() {
             @Override
