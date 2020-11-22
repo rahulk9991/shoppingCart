@@ -57,22 +57,23 @@
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
+                <TextView
+                    android:id="@+id/rTitleView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ballons"
+                    android:padding="30dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
                 <ImageView
                     android:id="@+id/rImage"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                      />
-
-                <TextView
-                    android:id="@+id/rTitleView1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Me"
-                    android:textAlignment="center"
-                    android:textColor="@android:color/black"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -98,20 +99,23 @@
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Costumes"
+                    android:padding="25dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:id="@+id/costumes" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Me"
-                    android:textAlignment="center"
-                    android:textColor="@android:color/black"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -137,6 +141,16 @@
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
                 android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tablewear"
+                    android:padding="25dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -144,14 +158,6 @@
                     android:layout_gravity="center_horizontal"
                     android:id="@+id/tableware" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Tablewear"
-                    android:textAlignment="center"
-                    android:textColor="@android:color/black"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -177,20 +183,23 @@
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Candles"
+                    android:padding="30dp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:id="@+id/candles" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Me"
-                    android:textAlignment="center"
-                    android:textColor="@android:color/black"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -217,21 +226,24 @@
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="decorations"
+                    android:padding="23dp"
+                    android:layout_gravity="top"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:id="@+id/decorations" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Me"
-                    android:layout_gravity="top"
-                    android:gravity="center"
-                    android:textColor="@android:color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -257,21 +269,23 @@
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
+                <TextView
+                    android:layout_width="161dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="top"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:text="Baking Supplies"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:id="@+id/bakingsupplies" />
 
-                <TextView
-                    android:layout_width="161dp"
-                    android:layout_height="20dp"
-                    android:layout_gravity="top"
-                    android:gravity="center"
-                    android:text="Me"
-                    android:textColor="@android:color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
 
             </LinearLayout>
 
