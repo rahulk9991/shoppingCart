@@ -58,12 +58,14 @@
                 android:orientation="vertical">
 
                 <ImageView
+                    android:id="@+id/rImage"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/balloons" />
+                     />
 
                 <TextView
+                    android:id="@+id/rTitleView1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Me"
@@ -100,7 +102,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/costumes" />
+                    android:id="@+id/costumes" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -140,7 +142,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/tableware" />
+                    android:id="@+id/tableware" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -179,7 +181,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/candles" />
+                    android:id="@+id/candles" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -219,7 +221,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/decorations" />
+                    android:id="@+id/decorations" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -259,7 +261,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/bakingsupplies" />
+                    android:id="@+id/bakingsupplies" />
 
                 <TextView
                     android:layout_width="161dp"

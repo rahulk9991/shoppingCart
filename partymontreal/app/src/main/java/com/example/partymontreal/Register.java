@@ -8,7 +8,6 @@ import android.os.Bundle;
 import android.provider.Telephony;
 import android.text.TextUtils;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -38,14 +37,8 @@ public class Register extends AppCompatActivity {
         mLoginBtn = findViewById(R.id.textView3);
 
         fAuth = FirebaseAuth.getInstance();
-        if(fAuth.getCurrentUser() != null){
-            startActivity(new Intent(getApplicationContext(),MainActivity.class));
-            finish();
-        }
 
         mRegisterBtn.setOnClickListener(new View.OnClickListener() {
-
-        mRegisterBtn.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 String email= mEmail.getText().toString().trim();
@@ -71,7 +64,6 @@ public class Register extends AppCompatActivity {
                         if(task.isSuccessful()){
                             Toast.makeText(Register.this, "User Created", Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(getApplicationContext(),MainActivity.class));
-                            startActivity(new Intent(getApplicationContext(),Login.class));
                         }else {
                             Toast.makeText(Register.this, "Error!"+task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                         }
@@ -81,8 +73,6 @@ public class Register extends AppCompatActivity {
         });
 
         mLoginBtn.setOnClickListener(new View.OnClickListener() {
-
-        mLoginBtn.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(),Login.class));
